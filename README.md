@@ -23,7 +23,7 @@ This addon generates the `.circleci/config.yml` file.
 Lint and Tests jobs are started as parallel jobs.
 After the install dependencies job, the `node_modules` folder is cached by CircleCI to speed up the next runs.
 
-:bulb: If you later need to regenerate the `.circleci/config.yml` file, run `ember g ember-circle-ci`.
+:bulb: If you later need to regenerate the `.circleci/config.yml` file, run `ember g ember-circleci`.
 
 ### Configuration for application
 
